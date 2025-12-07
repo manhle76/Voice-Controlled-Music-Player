@@ -120,7 +120,6 @@ class MusicPlayer:
 
         elif action == "turn off":
             self.running = False
-            pygame.quit()
 
         elif "turn on the song" in action or action not in ["start", "stop", "next", "back", "volume up", "volume down", "turn off"]:
             # Match song name
@@ -213,3 +212,4 @@ if __name__ == "__main__":
     print("Listening...")
     print("Đang lắng nghe...")
     player.run()
+
