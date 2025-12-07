@@ -28,7 +28,7 @@ translate Vietnamese commands to English, and display a GUI with buttons, volume
 
 3) Installing Python
 
-1)Go to https://www.python.org/downloads/
+1)Go to https://www.python.org/downloads/ (should download version older than 3.13)
 2)Click “Download Python 3.x.x” for your system (Windows, macOS, or Linux)
 3)Open the downloaded file to start installation
 4)Check “Add Python 3.x to PATH”
@@ -43,7 +43,7 @@ Python is now installed and ready to use.
 
 Open terminal or command prompt and run:
 
-pip install pygame mutagen pyttsx3 speechrecognition googletrans==4.0.0-rc1 pyaudio
+pip install pygame mutagen pyttsx3 SpeechRecognition googletrans==4.0.0-rc1 pyaudio
 
 On Windows, PyAudio may fail. Download the correct .whl file from:
 https://www.lfd.uci.edu/~gohlke/pythonlibs/
@@ -68,4 +68,5 @@ python play_music.py
 - Microphone not detected → check PyAudio installation
 - API unavailable → check internet connection
 - No speech detected → speak clearly and closer to microphone
+
 
